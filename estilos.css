@@ -1,10 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000; 1,200..1000&family=Poppins:wght@300; 400; 500; 700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;700&display=swap');
 * {
     margin: 0px;
-    padding: 0px;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+}
+#cabecera {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 8px 100px;
+    background: #039F64 ;
+    backdrop-filter: blur(10px);
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botonera a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+.botonera a:hover {
+    color:#039F64 ;
+    background-color: white;
+    border-radius: 30px;
+}
+div img:hover {
+    transform: scale(1.1);
+}
+nav ul {
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: row;
+}
+nav li {
+    padding: 0 30px;
+}
+
+footer {
+    font-family: "Nunito";
+    font-weight: normal;
+    font-size: 0.8em;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    background-color: #039F64;
 }
