@@ -2,45 +2,74 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000; 1,200..1000&family=Poppins:wght@300; 400; 500; 700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;700&display=swap');
+
 * {
     margin: 0px;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 3.5em;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
 #cabecera {
     font-family: "Nunito";
     font-weight: bold;
     font-size: 1.5em;
     width: 100%;
     padding: 8px 100px;
-    background: #039F64 ;
+    background: #039F64;
     backdrop-filter: blur(10px);
 }
+
 .contenedor {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .botonera a {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
 }
+
 .botonera a:hover {
-    color:#039F64 ;
+    color: #039F64;
     background-color: white;
     border-radius: 30px;
 }
+
 div img:hover {
     transform: scale(1.1);
 }
+
 nav ul {
     width: 100%;
     padding: 25px 0px;
     display: flex;
     flex-direction: row;
 }
+
 nav li {
     padding: 0 30px;
 }
@@ -50,11 +79,89 @@ footer {
     font-weight: normal;
     font-size: 0.8em;
     color: white;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     text-align: center;
     margin: 0px;
     padding: 30px;
     background-color: #039F64;
+}
+
+.estructura_contacto {
+    font-family: "Nunito";
+    background-color: #039F64;
+    background-image: url();
+    padding: 120px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 165px;
+}
+
+.contacto {
+    width: 890px;
+    background-color: white;
+    padding: 48px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    box-shadow: -8px 10px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+form {
+    width: 100%;
+    height: auto;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input {
+    font-size: 1.5em;
+    width: 100%;
+    height: 50px;
+    padding: 10px 24px;
+    margin-top: 8px;
+    margin-bottom: 42px;
+    color: #039F64;
+    border-radius: 24px;
+    border: 3px solid #039F64;
+}
+
+textarea {
+    font-size: 1.5em;
+    width: 100%;
+    height: 253px;
+    padding: 10px 24px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    color: #039F64;
+    border-radius: 24px;
+    border: 3px solid #039F64;
+}
+
+.boton_enviar {
+    width: 100%;
+    background-color: #039F64;
+    color: white;
+}
+
+.columna_derecha {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.columna_derecha p {
+    width: 520px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
 }
