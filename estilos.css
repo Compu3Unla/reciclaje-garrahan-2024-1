@@ -5,7 +5,6 @@
 
 * {
     margin: 0px;
-    list-style: none;
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -59,7 +58,7 @@ p {
     border-radius: 30px;
 }
 
-div img:hover {
+.contenedor img:hover {
     transform: scale(1.1);
 }
 
@@ -72,6 +71,7 @@ nav ul {
 
 nav li {
     padding: 0 30px;
+    list-style: none;
 }
 
 footer {
@@ -164,4 +164,90 @@ textarea {
     flex-direction: row;
     align-items: center;
     gap: 18px;
+}
+
+
+/* fundacion garrahn */
+
+#titulo_fundacion {
+    height: 548px;
+    background-image: url(img/hospital\ garrahann.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo_fundacion h1 {
+    font-family: "Nunito";
+    font-weight: 900;
+    color: #039F64;
+    background-color: white;
+    padding: 48px 30px;
+    width: 1320px;
+    height: 196px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bajada_fundacion {
+    height: 2135px;
+    background-color: white;
+    background-image: url(img/fondos/fondo_fundacion.png);
+    padding: 130px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.inicio_fundacion {
+    text-align: center;
+    width: 1150px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.inicio_fundacion h3 {
+    font-family: "Nunito";
+    font-weight: 800;
+    color: #039F64;
+    font-size: 70px;
+    line-height: 75px;
+}
+.inicio_fundacion p {
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    line-height: 40px;
+}
+.imagen_fundacion {
+    box-shadow: -8px 10px 4px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 54px;
+}
+.info_fundacion {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+}
+.docencia, .inversion {
+    width: 760px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.info_fundacion h5 {
+    font-family: "Nunito" ;
+    color: #1051B1;
+    font-weight: 800;
+    font-size: 32px;
+}
+.info_fundacion p, ul {
+    font-family: "Nunito Sans";
+    color: black;
+    font-size: 24px;
+    line-height: 40px;
+}
+.imagen_fundacion:hover {
+    filter:brightness(40%);
+    transition: 0.5;
 }
