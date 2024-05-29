@@ -166,6 +166,90 @@ textarea {
     gap: 18px;
 }
 
+/* programas */
+.presentacion {
+    background-image: url(img/fondos/fondo_reciclar.png);
+    font-family: "nunito";
+    font-weight: 900;
+    color: #039F64;
+    padding: 120px 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+#video_texto {
+    font-family: "nunito sans";
+    font-weight: normal;
+    font-size: 1.5em;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+#video_texto video{
+    border-radius: 54px;
+    box-shadow: -8px 10px 4px 0px rgba(0, 0, 0, 0.30);
+}
+#video_texto ul{
+    line-height: 45px;
+}
+
+.recicladopapel {
+    background-image: url(img/fondos/fondo_papel.png);
+    display: flex;
+    flex-direction: column;
+}
+.recicladollaves {
+    background-image: url(img/fondos/fondo_llaves.png);
+    display: flex;
+    flex-direction: column;
+}
+.recicladotapitas {
+    background-image: url(img/fondos/fondo_tapitas.png);
+    display: flex;
+    flex-direction: column;
+}
+.recicladolatitas {
+    background-image: url(img/fondos/fondo_latitas.png);
+    display: flex;
+    flex-direction: column;
+}
+.recicladomateriales {
+    background-image: url(img/fondos/fondo_materiales.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.papel, .llaves, .tapitas, .latitas, .otrosmateriales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px;
+    gap: 57px;
+}
+#reciclado_papel h4{
+    font-family: "nunito";
+    font-style: normal;
+    font-size: 2.5em;
+    color: #59B00D;
+}
+#reciclado_papel p{
+    width: 648px;
+    font-family: "nunito sans";
+    color: black;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.carruselpapel {}
+
+
+
+
+
+
+
 
 /* fundacion garrahn */
 
