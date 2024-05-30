@@ -335,3 +335,175 @@ textarea {
     filter:brightness(40%);
     transition: 0.5;
 }
+
+/* index */
+
+.titulo {
+
+    width: 100%;
+    height: auto;
+    padding: 260px 395px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Nunito";
+    font-weight: 800;
+    color: white;
+    font-size: 70px;
+    line-height: 118px;
+    position: absolute;
+    z-index: 10;
+}
+
+.titulo h1 {
+    font-size: 110px;
+    font-weight: 900;
+
+}
+
+.titulo h2 {
+    font-size: 60px;
+}
+
+.background {
+    width: 100%;
+    filter:brightness(40%);
+}
+
+#proyecto_programa {
+    height: 1346px;
+    background-color: white;
+    background-image: url(img/fondos/fondo_proyecto.png);
+    padding: 130px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 250px;
+}
+.proyecto {
+    text-align: center;
+    width: 800px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.proyecto h3 {
+    font-family: "Nunito";
+    font-weight: 800;
+    color: #039F64;
+    font-size: 70px;
+    line-height: 75px;
+}
+.proyecto p {
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.programas {
+    text-align: center;
+    width: 100%;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.programas h3 {
+    font-family: "Nunito";
+    font-weight: 800;
+    color: #039F64;
+    font-size: 70px;
+    line-height: 75px;
+}
+
+.iconos {
+    display:flex;
+    justify-content:center;
+    gap: 32px;
+}
+
+.nombre_iconos {
+    display:flex;
+    justify-content:center;
+    padding: 0px 120px;
+}
+
+.nombre_iconos ul {
+    display: flex;
+    font-family: "Nunito";
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.nombre_iconos ul li {
+    padding: 0px 57px;
+    list-style: none;
+}
+
+#tienda {
+    height: 1178px;
+    background-color: white;
+    background-image: url(img/fondos/fondo_tienda.png);
+    padding: 130px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.intro_tienda {
+    text-align: center;
+    width: 800px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_tienda h3 {
+    font-family: "Nunito";
+    font-weight: 800;
+    color: white;
+    font-size: 70px;
+    line-height: 75px;
+}
+
+.intro_tienda p {
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+}
+
+#sumate {
+    height: 1230px;
+    background-color: white;
+    padding: 130px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.titulo_empresas {
+    text-align: center;
+    width: 800px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_empresas h3 {
+    font-family: "Nunito";
+    font-weight: 800;
+    color: #E27E08;
+    font-size: 70px;
+    line-height: 75px;
+}
+
+.iconos_empresas {
+    display:flex;
+    justify-content:center;
+    gap: 32px;
+}
