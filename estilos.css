@@ -1,7 +1,5 @@
-@charset "utf-8";
-/* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000; 1,200..1000&family=Poppins:wght@300; 400; 500; 700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&display=swap');
 
 * {
     margin: 0px;
@@ -10,23 +8,27 @@
 }
 
 h1 {
+    font-family: "Nunito", sans-serif;
     font-size: 6em;
-    font-weight: bolder;
 }
 
 h2 {
+    font-family: "Nunito", sans-serif;
     font-size: 3em;
 }
 
 h3 {
+    font-family: "Nunito", sans-serif;
     font-size: 3.5em;
 }
 
 h4 {
+    font-family: "Nunito", sans-serif;
     font-size: 2.5em;
 }
 
 p {
+    font-family: "Nunito Sans", sans-serif;
     font-size: 1.5em;
 }
 
@@ -166,10 +168,13 @@ textarea {
     gap: 18px;
 }
 
+
+
+
+
 /* programas */
 .presentacion {
     background-image: url(img/fondos/fondo_reciclar.png);
-    font-family: "nunito";
     font-weight: 900;
     color: #039F64;
     padding: 120px 166px;
@@ -180,7 +185,6 @@ textarea {
     gap: 46px;
 }
 #video_texto {
-    font-family: "nunito sans";
     font-weight: normal;
     font-size: 1.5em;
     color: black;
@@ -200,49 +204,126 @@ textarea {
     background-image: url(img/fondos/fondo_papel.png);
     display: flex;
     flex-direction: column;
+    padding: 130px 100px;
 }
 .recicladollaves {
     background-image: url(img/fondos/fondo_llaves.png);
     display: flex;
     flex-direction: column;
+    padding: 130px;
 }
 .recicladotapitas {
     background-image: url(img/fondos/fondo_tapitas.png);
     display: flex;
     flex-direction: column;
+    padding: 130px;
 }
 .recicladolatitas {
     background-image: url(img/fondos/fondo_latitas.png);
     display: flex;
     flex-direction: column;
+    padding: 130px;
 }
 .recicladomateriales {
     background-image: url(img/fondos/fondo_materiales.png);
     display: flex;
     flex-direction: column;
+    padding: 130px;
 }
-
+.publicidad{
+    background-image: url(img/fondos/fondo_publicidad.png);
+    display: flex;
+    flex-direction: column;
+    padding: 130px;
+}
+.textopublicidad{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: white;
+}
 .papel, .llaves, .tapitas, .latitas, .otrosmateriales {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 130px;
     gap: 57px;
 }
+
 #reciclado_papel h4{
-    font-family: "nunito";
-    font-style: normal;
-    font-size: 2.5em;
     color: #59B00D;
+    gap: 28px;
 }
 #reciclado_papel p{
     width: 648px;
-    font-family: "nunito sans";
     color: black;
-    font-style: normal;
-    font-size: 1.5em;
 }
-.carruselpapel {}
+#reciclado_llaves h4{
+    color: #E27E08;
+}
+#reciclado_llaves p{
+    width: 648px;
+    color: black;
+}
+#reciclado_tapitas h4{
+    color: #E40635;
+}
+#reciclado_tapitas p{
+    width: 648px;
+    color: black;
+}
+#reciclado_latitas h4{
+    color: #039F64;
+}
+#reciclado_latitas p{
+    width: 648px;
+    color: black;
+}
+#reciclado_materiales h4{
+    color: #039F64;
+}
+#reciclado_materiales p{
+    width: 648px;
+    color: black;
+}
+
+
+.carruselpapel {
+}
+.carruselpapel .grande {
+    width: 1603px;
+    padding: 60px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    overflow: hidden;
+}
+.grande img{
+    transition: all 0.15s ease;
+
+}
+.carruselpapel img{
+    border-radius: 54px;
+    box-shadow: -8px 10px 4px 0px rgba(0, 0, 0, 0.30);
+    justify-content: end;
+}
+.carruselpapel .puntos {
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.carruselpapel .punto {
+    width: 50px;
+    color: rgb(19, 21, 143);
+}
+
 
 
 
@@ -262,7 +343,7 @@ textarea {
 }
 #titulo_fundacion h1 {
     font-family: "Nunito";
-    font-weight: 900;
+    font-size: 6em;
     color: #039F64;
     background-color: white;
     padding: 48px 30px;
