@@ -327,7 +327,7 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     gap: 35px;
     color: white;
 }
@@ -336,7 +336,7 @@ iframe {
 .llaves,
 .tapitas,
 .latitas,
-.otrosmateriales {
+.otrosmateriales{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,51 +389,55 @@ iframe {
     color: black;
 }
 
-
-.carruselpapel {}
-
-.carruselpapel .grande {
-    width: 1603px;
-    padding: 60px;
+.galeria-papel, 
+.galeria-llaves,
+.galeria-tapitas,
+.galeria-latitas,
+.galeria-materiales,
+.galeria-publicidad {
+    width: 1605px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 25px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
-
-.grande img {
-    transition: all 0.15s ease;
-
-}
-
-.carruselpapel img {
-    border-radius: 54px;
-    box-shadow: 8px 10px 4px 0px rgba(0, 0, 0, 0.30);
-    justify-content: end;
-}
-
-.carruselpapel .puntos {
+.galeria-papel div, 
+.galeria-llaves div,
+.galeria-tapitas div,
+.galeria-latitas div,
+.galeria-materiales div,
+.galeria-publicidad div{
     width: 100%;
-    font-size: 60px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    grid-gap: 18px;
+    padding: 10px;
+    flex: none;
+}
+.galeria-papel div img, 
+.galeria-llaves div img,
+.galeria-tapitas div img,
+.galeria-latitas div img,
+.galeria-materiales div img,
+.galeria-publicidad div img{
+    width: auto;
+}
+.galeria-papel::-webkit-scrollbar, 
+.galeria-llaves::-webkit-scrollbar,
+.galeria-tapitas::-webkit-scrollbar,
+.galeria-latitas::-webkit-scrollbar,
+.galeria-material::-webkit-scrollbar,
+.galeria-publicidad::-webkit-scrollbar{
+    display: none;
+}
+.galeria-wrap {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+#irbtn, #volverbtn{
+    width: auto;
     cursor: pointer;
-    transition: all 0.15s ease;
+    margin: 10px;
 }
-
-.carruselpapel .punto {
-    width: 50px;
-    color: rgb(19, 21, 143);
-}
-
-
-
-
-
-
 
 
 
