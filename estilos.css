@@ -405,10 +405,9 @@ iframe {
 .galeria-latitas div,
 .galeria-materiales div,
 .galeria-publicidad div{
-    width: 100%;
+    width: 513px;
     display: flex;
     grid-gap: 18px;
-    padding: 10px;
     flex: none;
 }
 .galeria-papel div img, 
@@ -417,7 +416,7 @@ iframe {
 .galeria-latitas div img,
 .galeria-materiales div img,
 .galeria-publicidad div img{
-    width: auto;
+    width: 513px;;
 }
 .galeria-papel::-webkit-scrollbar, 
 .galeria-llaves::-webkit-scrollbar,
@@ -436,8 +435,28 @@ iframe {
 #irbtn, #volverbtn{
     width: auto;
     cursor: pointer;
-    margin: 10px;
+    margin: 30px;
 }
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    position: absolute;
+    transition: 0.5s;
+    color: white;
+    border-radius: 54px;
+    opacity: 0;
+}
+.contenido:hover {
+    opacity: 1;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.6);
+    
+}
+
 
 
 
