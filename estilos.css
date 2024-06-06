@@ -588,7 +588,7 @@ iframe {
 
 .flechas {
     width: 100%;
-    padding: 725px 395px;
+    padding: 725px 395px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -758,10 +758,10 @@ iframe {
 
 @keyframes movimiento {
     0% {
-        transform: translateY(0px)
+        transform: translateY(30px)
     }
 
     100% {
-        transform: translateY(30px);
+        transform: translateY(0px);
     }
 }
