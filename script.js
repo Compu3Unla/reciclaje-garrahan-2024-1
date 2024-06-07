@@ -1,7 +1,7 @@
 function setupCarrusel(galeriaClass, prevButtonId, nextButtonId) {
-    const scrollContainer = document.querySelector("galeriaClass");
-    const irbtn = document.getElementById("prevButtonId");
-    const volverbtn = document.getElementById("nextButtonId");
+    const scrollContainer = document.querySelector(galeriaClass);
+    const irbtn = document.getElementById(prevButtonId);
+    const volverbtn = document.getElementById(nextButtonId);
 
     scrollContainer.addEventListener("wheel", (evt) => {
         evt.preventDefault();
