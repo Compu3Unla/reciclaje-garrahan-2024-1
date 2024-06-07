@@ -415,7 +415,7 @@ iframe {
 .galeria-latitas div img,
 .galeria-materiales div img,
 .galeria-publicidad div img{
-    width: 513px;;
+    width: 513px;
 }
 .galeria-papel::-webkit-scrollbar, 
 .galeria-llaves::-webkit-scrollbar,
@@ -436,7 +436,9 @@ iframe {
     cursor: pointer;
     margin: 30px;
 }
-
+.imagen{
+    position: relative;
+}
 .contenido {
     display: flex;
     justify-content: center;
@@ -448,6 +450,7 @@ iframe {
     color: white;
     border-radius: 54px;
     opacity: 0;
+    top: 89%;
 }
 .contenido:hover {
     opacity: 1;
