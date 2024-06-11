@@ -25,3 +25,4 @@ setupCarrusel(".galeria-tapitas","irbtn-tapitas", "volverbtn-tapitas");
 setupCarrusel(".galeria-latitas","irbtn-latitas", "volverbtn-latitas");
 setupCarrusel(".galeria-materiales","irbtn-materiales", "volverbtn-materiales");
 setupCarrusel(".galeria-publicidad","irbtn-publicidad", "volverbtn-publicidad");
+setupCarrusel(".galeria-tienda","irbtn-tienda", "volverbtn-tienda");
