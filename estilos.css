@@ -723,7 +723,7 @@ iframe {
 .programas {
     text-align: center;
     width: 100%;
-    gap: 35px;
+    gap: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -735,28 +735,22 @@ iframe {
 }
 
 .iconos {
+    padding: 0px 165px;
     display: flex;
     justify-content: center;
     gap: 32px;
 }
 
-.nombre_iconos {
+.columna-icono {
     display: flex;
-    justify-content: center;
-    padding: 0px 120px;
+    flex-direction: column;
+    gap: 25px;
 }
 
-.nombre_iconos ul {
-    display: flex;
-    font-family: "Nunito extrabold", sans-serif;
-    font-size: 2em;
-    line-height: 40px;
+.nombre_icono h5 {
+    color: black;
 }
 
-.nombre_iconos ul li {
-    padding: 0px 57px;
-    list-style: none;
-}
 
 #tienda {
     height: 1178px;
