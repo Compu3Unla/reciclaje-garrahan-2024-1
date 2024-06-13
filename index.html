@@ -17,7 +17,13 @@
                 <img src="img/svg/logo_garrahan_completo.svg" width="203px" height="56px">
             </a>
             <nav class="botonera">
-                <ul>
+                <input type="checkbox" id="menu_check">
+                <label id="menu" for="menu_check">
+                    <span id="menu_abrir"><img src="img/svg/toggle.svg" width="40px" height="30px"></span>
+                    <span id="menu_cerrar"><img src="img/svg/close_blanco.svg" width="40px" height="35px"></span>
+                </label>
+
+                <ul class="desplegable_media">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="programas.html">Programas</a>
                         <ul class="desplegable">
@@ -69,50 +75,52 @@
             <article class="programas">
                 <h3>Programas de reciclado</h3>
                 <div class="iconos">
-                        <div class="columna-icono">
-                            <div class="imagen">
-                                <img src="img/svg/icono_papel.svg" width="237px" height="231px" alt="icono de papeles">
-                            </div>
-                            <div class="nombre_icono">
-                                <h5>Reciclado de papel</h5>
-                            </div> 
+                    <div class="columna-icono">
+                        <div class="imagen">
+                            <img src="img/svg/icono_papel.svg" width="237px" height="231px" alt="icono de papeles">
                         </div>
+                        <div class="nombre_icono">
+                            <h5>Reciclado de papel</h5>
+                        </div>
+                    </div>
 
-                        <div class="columna-icono">
-                            <div class="imagen">
-                                <img src="img/svg/icono_llaves.svg" width="237px" height="231px" alt="icono de llaves">
-                            </div>
-                            <div class="nombre_icono">
-                                <h5>Reciclado de llaves</h5>
-                            </div> 
+                    <div class="columna-icono">
+                        <div class="imagen">
+                            <img src="img/svg/icono_llaves.svg" width="237px" height="231px" alt="icono de llaves">
                         </div>
-                        
-                        <div class="columna-icono">
-                            <div class="imagen">
-                                <img src="img/svg/icono_tapitas.svg" width="237px" height="231px" alt="icono de tapitas">
-                            </div>
-                            <div class="nombre_icono">
-                                <h5>Reciclado de tapitas</h5>
-                            </div> 
+                        <div class="nombre_icono">
+                            <h5>Reciclado de llaves</h5>
                         </div>
+                    </div>
 
-                        <div class="columna-icono">
-                            <div class="imagen">
-                                <img src="img/svg/icono_latitas.svg" width="237px" height="231px" alt="icono de latitas">
-                            </div>
-                            <div class="nombre_icono">
-                                <h5>Reciclado de latitas</h5>
-                            </div> 
+                    <div class="columna-icono">
+                        <div class="imagen">
+                            <img src="img/svg/icono_tapitas.svg" width="237px" height="231px" alt="icono de tapitas">
                         </div>
+                        <div class="nombre_icono">
+                            <h5>Reciclado de tapitas</h5>
+                        </div>
+                    </div>
 
-                        <div class="columna-icono">
-                            <div class="imagen">
-                                <img src="img/svg/icono_materiales.svg" width="237px" height="231px" alt="un icono de otros materiales">
-                            </div>
-                            <div class="nombre_icono">
-                                <h5>Reciclado de otros materiales</h5>
-                            </div> 
+                    <div class="columna-icono">
+                        <div class="imagen">
+                            <img src="img/svg/icono_latitas.svg" width="237px" height="231px" alt="icono de latitas">
                         </div>
+                        <div class="nombre_icono">
+                            <h5>Reciclado de latitas</h5>
+                        </div>
+                    </div>
+
+                    <div class="columna-icono" id="columna-doble">
+                        <div class="imagen">
+                            <img src="img/svg/icono_materiales.svg" width="237px" height="231px"
+                                alt="un icono de otros materiales">
+                        </div>
+                        <div class="nombre_icono">
+                            <h5>Reciclado de otros materiales</h5>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
 
@@ -129,69 +137,99 @@
                     <img src="img/svg/flecha_volver.svg" width="35px" height="53px" id="irbtn-tienda" alt="flecha">
                     <div class="galeria-tienda">
                         <div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_andarin.png" width="400px" height="400px"
-                                    alt="andarin">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/eco-andarin-caminador-reciclado-fundacion-garrahan-pardo-color-verde-musgo/p/MLA29607251?#item_id=MLA1407434551&component=tabbed_carrousel&page_from=home"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_andarin.png" width="400px" height="400px" alt="andarin">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_tarjetero.png" width="400px" height="400px"
-                                    alt="tarjetero">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-832038621-eco-tarjetero-y-papeles-autoadhesivos-fundacion-garrahan-e-_JM?#item_id=MLA832038621&component=tabbed_carrousel&page_from=home"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_tarjetero.png" width="400px" height="400px"
+                                        alt="tarjetero">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_mochila.png" width="400px" height="400px"
-                                    alt="mochila">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-834144319-eco-mochila-15l-plegable-ultraliviana-fundacion-garrahan-e-_JM?#item_id=MLA834144319&component=tabbed_carrousel&page_from=home"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_mochila.png" width="400px" height="400px" alt="mochila">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_agenda.png" width="400px" height="400px"
-                                    alt="agenda">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-1565597368-combo-regalos-agenda-calendario-2024-fundacion-garrahan-e-_JM#position=15&search_layout=grid&type=item&tracking_id=6daab471-f6b4-4d74-aec4-99dda154460e"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_agenda.png" width="400px" height="400px" alt="agenda">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_anotador.png" width="400px" height="400px"
-                                    alt="anotador">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-829749490-eco-anotador-lapicera-fundacion-garrahan-e-_JM#position=17&search_layout=grid&type=item&tracking_id=3ba82801-4d4b-4a82-8c94-e7c18f26130f"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_anotador.png" width="400px" height="400px"
+                                        alt="anotador">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_ladrillos.png" width="400px" height="400px"
-                                    alt="Ladrillos de plastico">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-1116144180-eco-ladrillos-encastre-mix-90-piezas-fundacion-garrahan-_JM#position=9&search_layout=stack&type=item&tracking_id=b873d8fb-8076-4066-94ad-6c692f2b82ba"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_ladrillos.png" width="400px" height="400px"
+                                        alt="Ladrillos de plastico">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_libro.png" width="400px" height="400px"
-                                    alt="libro">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-873028229-libro-para-colorear-mandalas-y-dibujos-fundacion-garrahan-_JM#position=6&search_layout=stack&type=item&tracking_id=4a2326ec-14f4-4fe0-b81b-02bd665ce52d"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_libro.png" width="400px" height="400px" alt="libro">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_kit_siembra.png" width="400px" height="400px"
-                                    alt="kit de siembra">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-903215854-eco-kit-de-siembra-huerta-fundacion-garrahan-_JM#position=6&search_layout=grid&type=item&tracking_id=1f1689c9-7bf8-4ad0-8138-8c5ec1b3cb35"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_kit_siembra.png" width="400px" height="400px"
+                                        alt="kit de siembra">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="imagen-tienda">
-                                <img src="img/tienda/tienda_lapices.png" width="400px" height="400px"
-                                    alt="lapices">
-                                <div class="contenido-tienda">
-                                    <p>¡Comprar!</p>
+                            </a>
+
+                            <a href="https://www.tiendafundaciongarrahan.org.ar/MLA-829743025-eco-lapices-colores-lapicero-carton-fundacion-garrahan-e-_JM#position=5&search_layout=grid&type=item&tracking_id=8fffb529-c60c-45df-8650-216a5467ec57"
+                                target="_blank">
+                                <div class="imagen-tienda">
+                                    <img src="img/tienda/tienda_lapices.png" width="400px" height="400px" alt="lapices">
+                                    <div class="contenido-tienda">
+                                        <p>¡Comprar!</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <img src="img/svg/flecha_ir.svg" width="35px" height="53px" id="volverbtn-tienda" alt="flecha">
@@ -212,8 +250,6 @@
                     </div>
                     <div class="titulo1">
                         <h5>Instituciones Educativas</h5>
-                    </div>
-                    <div class="texto1>">
                         <p>Sumá a tu empresa o institución a los programas donando papeles, tapitas plásticas o llaves.
                         </p>
                     </div>
@@ -226,8 +262,6 @@
                     </div>
                     <div class="titulo1">
                         <h5>Empresas e Institutos</h5>
-                    </div>
-                    <div class="texto1>">
                         <p>Sumá a tu institución educativa a los programas de reciclado de papeles, tapitas plásticas o
                             llaves.</p>
                     </div>
@@ -240,8 +274,6 @@
                     </div>
                     <div class="titulo1">
                         <h5>Particulares</h5>
-                    </div>
-                    <div class="texto1>">
                         <p>Jugá un “papel” importante en la vida de los niños. Sumate a los programas de reciclado y
                             acercate a los puntos de recolección.</p>
                     </div>
@@ -254,8 +286,6 @@
                     </div>
                     <div class="titulo1">
                         <h5>Consorcios</h5>
-                    </div>
-                    <div class="texto1>">
                         <p>Junto a tus vecinos jugá un “papel” importante la vida de los niños. Sumate a los programas
                             de reciclado de la Fundación.</p>
                     </div>
