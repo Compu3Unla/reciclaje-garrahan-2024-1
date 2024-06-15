@@ -924,11 +924,9 @@ iframe {
 
 .flechas2 {
     width: 100%;
-    padding: 886px 395px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     z-index: 10;
 }
 
@@ -955,6 +953,7 @@ iframe {
     #cabecera {
         font-size: 1.5em;
         width: 100%;
+        padding: 15px;
     }
 
     .contenedor {
@@ -962,6 +961,7 @@ iframe {
         justify-content: center;
         align-items: center;
         justify-content: space-between;
+        width: 70%;
     }
 
     nav ul {
@@ -1006,10 +1006,12 @@ iframe {
     /* INDEX */
     h3 {
         font-size: 3em;
+        text-align: center;
+        width: 100%;
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.3em;
         line-height: 30px;
     }
 
@@ -1022,7 +1024,7 @@ iframe {
     }
 
     .titulo {
-        width: 550px;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -1030,12 +1032,13 @@ iframe {
         align-items: center;
         text-align: center;
         z-index: 10;
+        padding: 0%;
     }
 
     .titulo h1 {
         font-size: 4em;
-        font-weight: 30px;
-
+        line-height: 80px;
+        padding: 200px 100px 10px;
     }
 
     .titulo h2 {
@@ -1047,7 +1050,6 @@ iframe {
     }
 
     .background {
-        width: 100%;
     }
 
     #proyecto_programa {
@@ -1055,13 +1057,14 @@ iframe {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 100px;
+        padding: 100px 0px;
     }
 
     .proyecto {
         text-align: center;
         width: 80%;
-        gap: 35px;
+        gap: 60px;
         display: flex;
         flex-direction: column;
     }
@@ -1084,14 +1087,17 @@ iframe {
         display: flex;
         flex-direction: column;
         gap: 25px;
+        width: 90%;
     }
 
     #columna-doble {
-        grid-column: 3/2;
+        grid-column: 3/1;
     }
 
     #tienda {
         background-image: url(img/fondos/fondo_tienda_600.png);
+        height: 0%;
+        padding: 100px 0px;
     }
 
     .intro_tienda {
@@ -1140,6 +1146,9 @@ iframe {
             width: 200px;
             height: 200px;
         }
+        .contenido-tienda:hover{
+            border-radius: 21px;
+        }
     }
 
     .galeria-tienda div {
@@ -1151,10 +1160,11 @@ iframe {
 
 
     #sumate {
-        padding: 130px;
+        padding: 100px 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 50px;
     }
 
     .titulo_empresas {
@@ -1165,13 +1175,17 @@ iframe {
         display: flex;
         flex-direction: column;
     }
+    .titulo_empresas h3{
+        line-height: 1.1em;
+    }
 
     .empresas {
-        height: 1230px;
+        height: 1500px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 48px;
+        padding: 0px 0px 100px 0px;
 
         img {
             width: 200px;
@@ -1190,7 +1204,6 @@ iframe {
 
 
     .flechas2 {
-        padding: 886px 395px 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
