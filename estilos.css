@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-/*@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');*/
-
-
 * {
     margin: 0px;
     text-decoration: none;
@@ -130,7 +127,7 @@ nav ul {
 }
 
 nav li {
-    padding: 0 30px;
+    padding: 0px 30px;
     list-style: none;
 }
 
@@ -187,7 +184,7 @@ footer {
 }
 
 .estructura_contacto {
-    padding: 120px 0;
+    padding: 120px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -312,59 +309,40 @@ iframe {
     border-radius: 54px;
     box-shadow: 8px 10px 4px 0px rgba(0, 0, 0, 0.30);
 }
-
-.recicladopapel {
-    background-image: url(img/fondos/fondo_papel.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    display: flex;
-    flex-direction: column;
-    padding: 130px 100px;
-}
-
-.recicladollaves {
-    background-image: url(img/fondos/fondo_llaves.png);
+.recicladopapel,
+.recicladollaves,
+.recicladotapitas,
+.recicladolatitas,
+.recicladomateriales,
+.publicidad{
     background-repeat: no-repeat;
     background-size: 100% auto;
     display: flex;
     flex-direction: column;
     padding: 130px;
+}
+.recicladopapel {
+    background-image: url(img/fondos/fondo_papel.png);
+    padding: 130px 100px;
+}
+.recicladollaves {
+    background-image: url(img/fondos/fondo_llaves.png);
 }
 
 .recicladotapitas {
     background-image: url(img/fondos/fondo_tapitas.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    display: flex;
-    flex-direction: column;
-    padding: 130px;
 }
 
 .recicladolatitas {
     background-image: url(img/fondos/fondo_latitas.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    display: flex;
-    flex-direction: column;
-    padding: 130px;
 }
 
 .recicladomateriales {
     background-image: url(img/fondos/fondo_materiales.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    display: flex;
-    flex-direction: column;
-    padding: 130px;
 }
 
 .publicidad {
     background-image: url(img/fondos/fondo_publicidad.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    display: flex;
-    flex-direction: column;
-    padding: 130px;
     gap: 50px;
 }
 
@@ -565,7 +543,7 @@ iframe {
     background-image: url(img/fondos/fondo_fundacion.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    padding: 130px 0 0 0;
+    padding: 130px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -615,7 +593,7 @@ iframe {
     position: absolute;
     transition: 0.5s;
     color: white;
-    font-size: 75px;
+    font-size: 4em;
     border-radius: 54px;
     opacity: 0;
 }
@@ -653,6 +631,7 @@ iframe {
     justify-content: center;
     align-items: center;
     transform: scale(0);
+    gap: 30px;
 }
 
 .light-box img {
@@ -668,7 +647,7 @@ iframe {
     position: absolute;
     top: 100px;
     right: 80px;
-    font-size: 40px;
+    font-size: 3em;
     font-family: 'Nunito';
     color: white;
     background-color: #039F64;
@@ -782,7 +761,6 @@ iframe {
 
 .proyecto h3 {
     color: #039F64;
-    font-size: 70px;
 }
 
 .programas {
@@ -795,8 +773,6 @@ iframe {
 
 .programas h3 {
     color: #039F64;
-    font-size: 70px;
-    line-height: 75px;
 }
 
 .iconos {
