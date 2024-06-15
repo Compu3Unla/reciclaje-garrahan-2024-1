@@ -916,7 +916,6 @@ iframe {
 }
 
 .empresas {
-    height: 1230px;
     display: flex;
     align-items: center;
     gap: 48px;
@@ -965,18 +964,20 @@ iframe {
     }
 
     nav ul {
-        width: 300px;
         display: flex;
         flex-direction: column;
         justify-items: flex-end;
         text-align: right;
         background-color: #039F64;
         position: fixed;
-        left: 0;
+        right: 0;
         top: 75px;
         gap: 40px;
         overflow-y: auto;
         border-radius: 20px;
+    }
+    .botonera li:hover .desplegable{
+        display: none;
     }
 
     #menu_check:not(:checked)~ul {
@@ -1049,8 +1050,6 @@ iframe {
         display: none;
     }
 
-    .background {
-    }
 
     #proyecto_programa {
         background-image: url(img/fondos/fondo_proyecto_600.png);
@@ -1165,6 +1164,7 @@ iframe {
         flex-direction: column;
         align-items: center;
         gap: 50px;
+        height: 145vh;
     }
 
     .titulo_empresas {
@@ -1180,12 +1180,11 @@ iframe {
     }
 
     .empresas {
-        height: 1500px;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 48px;
-        padding: 0px 0px 100px 0px;
+        padding:0px;
 
         img {
             width: 200px;
