@@ -368,6 +368,10 @@ nav li {
     gap: 48px;
 }
 
+.titulo1 {
+    max-width: 376px;
+}
+
 .flechas2 {
     width: 100%;
     display: flex;
@@ -414,6 +418,10 @@ nav li {
     align-items: center;
     gap: 28px;
 
+    ul {
+        max-width: 648px;
+    }
+
     li {
         font-family: "Nunito sans regular", sans-serif;
         font-size: 1.5em;
@@ -422,6 +430,7 @@ nav li {
 }
 
 #video_texto video {
+    max-width: 869px;
     border-radius: 54px;
     box-shadow: 8px 10px 4px 0px rgba(0, 0, 0, 0.30);
 }
