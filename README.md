@@ -21,7 +21,7 @@ Para hacer este trabajo utilizamos VISUAL STUDIO CODE.
 <h2>Tamaño de pantalla</h2>
 <h4>En general:</h4>
 <p>Desktop: 1920x1080</p>
-<p>Mobile: @MEDIA 600 - INDEX (página principal)</p>
+<p>Responsive @MEDIA 600: index.html (página principal)</p>
 
 <h4>Individual:</h4>
 <p>Santillan Melany: 1366x768</p>
