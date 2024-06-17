@@ -20,14 +20,14 @@ Para hacer este trabajo utilizamos VISUAL STUDIO CODE.
 
 <h2>Tamaño de pantalla</h2>
 <h4>En general:</h4>
-<p>Desktop: 1920 x 1080</p>
+<p>Desktop: 1920x1080</p>
 <p>Mobile: @MEDIA 600 - INDEX (página principal)</p>
 
 <h4>Individual:</h4>
-<p>Santillan Melany: </p>
-<p>Alberto Ariana Belen: 1360 x 768</p>
-<p>Santangelo Virginia: </p>
-<p>Chaile Micaela: 1920 x 1080</p>
+<p>Santillan Melany: 1366x768</p>
+<p>Alberto Ariana Belen: 1360x768</p>
+<p>Santangelo Virginia: 1366x768</p>
+<p>Chaile Micaela: 1920x1080</p>
 
 <h2>Link a figma:</h2>
 https://www.figma.com/design/pGxC3WBkZj6WCc9NbBt4lX/G4---Programa-de-Reciclaje-Garrahan?node-id=476-6&t=4Ys9Ttbwi5vs3JCd-1
